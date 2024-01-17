@@ -6,9 +6,9 @@ This project is a Golang application that utilizes GraphQL to manage categories 
 
 ## Features
 
-### Query Categories
+### Queries
 
-Retrieve information about all available categories.
+Retrieve information about all available data from categories and courses.
 
 ```graphql
 query queryCategories {
