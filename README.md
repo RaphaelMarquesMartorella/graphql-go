@@ -22,6 +22,10 @@ Follow these steps to set up and run the project locally:
 
 ## Features
 
+### Access GraphQL Playground
+
+Open your web browser and navigate to http://localhost:8080 to access the GraphQL Playground. This interactive environment allows you to test and execute the provided queries in real-time.
+
 ### Queries
 
 Retrieve information about all available data from categories and courses.
