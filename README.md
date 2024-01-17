@@ -1,4 +1,4 @@
-# Project Name
+# GraphQL Project with Go
 
 ## Overview
 
