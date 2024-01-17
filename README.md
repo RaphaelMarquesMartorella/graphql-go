@@ -12,8 +12,11 @@ Follow these steps to set up and run the project locally:
 
    ```bash
    git clone https://github.com/RaphaelMarquesMartorella/graphql-go.git
+   
    cd graphql-go
+   
    go mod tidy
+   
    go run cmd/server/server.go
    ```
 
