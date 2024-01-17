@@ -18,9 +18,7 @@ query queryCategories {
     description
   }
 }
-```
 
-```
 query queryCourses {
   courses {
     id
@@ -28,4 +26,29 @@ query queryCourses {
     description
   }
 }
+
+query queryCategoriesWithCourses {
+  categories {
+    id
+    name
+    courses {
+      id
+      name 
+    }
+  }
+}
+
+query queryCoursesWithCategory {
+  courses {
+    id
+    name
+    description
+    category {
+      id
+      name
+      description
+    }
+  }
+}
+
 ```
