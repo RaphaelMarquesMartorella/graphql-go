@@ -18,3 +18,14 @@ query queryCategories {
     description
   }
 }
+```
+
+```
+query queryCourses {
+  courses {
+    id
+    name
+    description
+  }
+}
+```
